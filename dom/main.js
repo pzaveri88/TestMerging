@@ -359,5 +359,10 @@ $('#rotate').click(function() {
 	}
 });
 
+$('#parag').click(function() {
+	window.location.assign("https://www.paragzaveri.com");
+});
+
+
 
 
