@@ -1,0 +1,109 @@
+body {
+	margin: 0;
+}
+div {
+	border: 2px solid black;
+	width: calc(100%/3 - 4px);
+	float: left;
+	text-align: center;
+	cursor:pointer;
+}
+
+/*///////////////////////////////////////////////////////////////////////////////////////////////////////*/
+
+o
+
+#addClass, #removeClass, #tagClassAdd, #tagClassRemove, #tagClassToggle, #toggleClass {
+	text-align: center;
+	width: 100px;
+}
+#submitAddClass,#submitRemoveClass, #submitToggleClass{
+	cursor:pointer;
+}
+
+.Week4 {
+	float: left;
+	margin-right: 250px;
+}
+
+.selected{
+    border:2px solid blue;
+}
+
+/*@-moz-keyframes spin {
+    from { -moz-transform: rotate(0deg); }
+    to { -moz-transform: rotate(360deg); }
+}
+@-webkit-keyframes spin {
+    from { -webkit-transform: rotate(0deg); }
+    to { -webkit-transform: rotate(360deg); }
+}
+@keyframes spin {
+    from {transform:rotate(0deg);}
+    to {transform:rotate(360deg);}
+}
+
+.spin{
+  -webkit-animation: spin 2s linear;
+  -moz-animation: spin 2s linear;
+  -o-animation: spin 2s linear;
+  animation: pin 2s linear;
+}
+*/
+
+.spin {
+  transform: perspective(600px) rotateY(45deg);
+
+  -webkit-animation-name: spin;
+  -webkit-animation-duration: 40000ms;
+  -webkit-animation-iteration-count: infinite;
+  -webkit-animation-timing-function: linear;
+  -moz-animation-name: spin;
+  -moz-animation-duration: 40000ms;
+  -moz-animation-iteration-count: infinite;
+  -moz-animation-timing-function: linear;
+  -ms-animation-name: spin;
+  -ms-animation-duration: 40000ms;
+  -ms-animation-iteration-count: infinite;
+  -ms-animation-timing-function: linear;
+}
+
+@-webkit-keyframes spin {
+from {
+  -webkit-transform:rotateY(0deg);
+}
+
+to {
+  -webkit-transform:rotateY(360deg);
+}
+}
+
+.rotate {
+  transform: perspective(600px) rotateZ(0deg);
+
+  -webkit-animation-name: spinner;
+  -webkit-animation-duration: 120000ms;
+  -webkit-animation-delay: 0ms;
+  -webkit-animation-iteration-count: infinite;
+  -webkit-animation-timing-function: linear;
+  -moz-animation-name: spinner;
+  -moz-animation-duration: 120000ms;
+  -moz-animation-delay: 0ms;
+  -moz-animation-iteration-count: infinite;
+  -moz-animation-timing-function: linear;
+  -ms-animation-name: spinner;
+  -ms-animation-duration: 120000ms;
+  -ms-animation-delay: 0ms;
+  -ms-animation-iteration-count: infinite;
+  -ms-animation-timing-function: linear;
+}
+
+@-webkit-keyframes spinner {
+from {
+  -webkit-transform:rotateZ(0deg);
+}
+
+to {
+  -webkit-transform:rotateZ(360deg);
+}
+}
