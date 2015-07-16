@@ -17,7 +17,7 @@ o
 	text-align: center;
 	width: 100px;
 }
-#submitAddClass,#submitRemoveClass, #submitToggleClass,#selectAllBoxes,#spin,#rotate{
+#submitAddClass,#submitRemoveClass, #submitToggleClass,#selectAllBoxes,#spin,#rotate,#parag,#zaveri{
 	cursor:pointer;
 }
 
