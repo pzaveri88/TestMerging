@@ -363,6 +363,8 @@ $('#parag').click(function() {
 	window.location.assign("https://www.paragzaveri.com");
 });
 
-
+$('#zaveri').click(function() {
+	window.location.assign("https://www.paragzaveri.com");
+});
 
 
